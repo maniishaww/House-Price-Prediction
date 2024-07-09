@@ -24,4 +24,4 @@ YearBuilt = st.number_input("Enter the number of year of constructin",min_value 
 
 price = model.predict([[SquareFeet,Bedrooms,Bathrooms,neighbor,YearBuilt]])
 
-st.write("The price for the flat with given detailes is Rs.",price)
+st.write("The price for the flat with given details is Rs.",price)
